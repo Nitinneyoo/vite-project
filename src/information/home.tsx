@@ -1,15 +1,15 @@
 import pic3 from '../images/pic3.jpg'
 export const Home = () => {
     return (
-        <div className="">
+        <div className="flex flex-col">
             <div>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-14 mx-auto flex flex-col">
-                        <div className="lg:w-4/6 mx-auto">
+                        <div className="lg:w-full mx-auto">
                             <div className="rounded-lg h-64 overflow-hidden">
                                 <img
                                     alt="content"
-                                    className="object-cover object-center h-full w-full"
+                                    className="object-cover object-center h-full w-full rounded-md"
                                     src={pic3}
                                 />
                             </div>
