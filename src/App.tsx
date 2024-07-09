@@ -1,12 +1,12 @@
 
-import { About } from './Data/About';
-import { Academic } from './Data/academic';
-import { Facility } from './Data/facility';
-import { Footer } from './Data/footer';
-import { Header } from './Data/header';
-import { Home } from './Data/home';
-import { Contact } from './Data/contact';
-import { Faculty } from './Data/faculity';
+import { About } from './data/About';
+import { Academic } from './data/academic';
+import { Facility } from './data/facility';
+import { Footer } from './data/footer';
+import { Header } from './data/header';
+import { Home } from './data/home';
+import { Contact } from './data/contact';
+import { Faculty } from './data/faculity';
 function App() {
 
   return (
