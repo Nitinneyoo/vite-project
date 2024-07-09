@@ -5,6 +5,7 @@ export const Home = () => {
         <div className="flex flex-col">
             <div>
                 <TextRevealCardPreview />
+                <h1 className='text-5xl font-bold text-center text-white'>About Us</h1>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-14 mx-auto flex flex-col">
                         <div className="lg:w-full mx-auto">

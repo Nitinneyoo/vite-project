@@ -6,7 +6,7 @@ export const Academic = () => {
             <>
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white-600 mb-20">
+                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">
                             Academics Information
                             <br className="hidden sm:block" />
                             About The School
