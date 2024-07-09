@@ -1,8 +1,10 @@
+import { TextRevealCardPreview } from '@/components/Animated'
 import pic3 from '../images/pic3.jpg'
 export const Home = () => {
     return (
         <div className="flex flex-col">
             <div>
+                <TextRevealCardPreview />
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-14 mx-auto flex flex-col">
                         <div className="lg:w-full mx-auto">
