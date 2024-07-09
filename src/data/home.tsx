@@ -1,4 +1,4 @@
-import { TextRevealCardPreview } from '@/components/Animated'
+import { TextRevealCardPreview } from '../components/Animated';
 import pic3 from '../images/pic3.jpg'
 export const Home = () => {
     return (
@@ -37,14 +37,21 @@ export const Home = () => {
                                             Ajayab Lal Singh
                                         </h2>
                                         <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4" />
-                                        <p className="text-base">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure doloremque magnam assumenda delectus iusto perspiciatis reiciendis, consectetur quasi sunt!
+                                        <p className="text-xl text-white">
+                                            Ajayab Lal Singh, the visionary founder of Model Middle School Baghedi, established the institution with a commitment to fostering academic excellence and holistic development. His dedication to quality education has transformed the school into a nurturing environment that prepares students for success and responsible citizenship.
                                         </p>
                                     </div>
                                 </div>
                                 <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                                    <p className="leading-relaxed text-lg mb-4">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet optio perferendis explicabo, non voluptatibus cum maiores sit dignissimos nostrum cupiditate et rem, nisi ratione accusamus autem amet numquam totam similique iusto aperiam voluptates. Ex porro obcaecati dolorum sed numquam saepe maiores delectus. Odio, eum aut repellat, aliquam eos eius laudantium sunt autem ratione necessitatibus, odit labore natus? Facilis, obcaecati exercitationem modi expedita corporis nesciunt maiores quaerat totam quasi ullam! Non obcaecati voluptate aspernatur quidem iusto architecto. Beatae, excepturi deserunt corporis natus cumque obcaecati ipsa similique, voluptas nisi repudiandae quos tenetur! Tempore nobis assumenda sapiente odit repellendus animi quae eveniet.
+                                    <p className="leading-relaxed text-xl mb-4">
+                                        Welcome to Model Middle School Baghedi, a vibrant educational institution dedicated to nurturing young minds from Class 1 to Class 10. Our school is committed to providing a holistic learning experience that balances academic excellence with the development of essential life skills. At Model Middle School Baghedi, we believe in fostering a supportive and inclusive environment where every student is encouraged to reach their full potential.
+
+                                        Our curriculum is designed to cater to the diverse learning needs of our students, ensuring that they receive a well-rounded education. We emphasize critical thinking, creativity, and problem-solving, preparing our students to thrive in an ever-changing world. Our experienced and dedicated faculty members are passionate about teaching and are committed to guiding students on their educational journey.
+
+                                        In addition to our strong academic program, we offer a wide range of extracurricular activities, including sports, arts, and various clubs, allowing students to explore their interests and talents. Our state-of-the-art facilities, including modern classrooms, science labs, and sports complexes, provide a conducive environment for learning and personal growth.
+
+                                        At Model Middle School Baghedi, we are not just shaping students academically but also instilling values of integrity, respect, and social responsibility. Join us in our mission to create future leaders who are well-equipped to make a positive impact on society.
+
                                     </p>
                                     <a className="text-indigo-500 inline-flex items-center">
                                         Learn More

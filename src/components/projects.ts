@@ -1,39 +1,58 @@
 
 export const projects = [
     {
-        title: "Stripe",
+        title: "Activity Rooms: ",
         description:
-            "A technology company that builds economic infrastructure for the internet.",
+            "Rooms equipped for art, craft, music, and dance activities.",
         link: "https://stripe.com",
     },
     {
-        title: "Netflix",
+        title: "Health and Wellness: ",
         description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+            "Regular health check-ups and a medical room with a nurse.",
         link: "https://netflix.com",
     },
     {
-        title: "Google",
+        title: "Transport: ",
         description:
-            "A multinational technology company that specializes in Internet-related services and products.",
+            "Safe and secure transport services with tracking for young students.",
         link: "https://google.com",
     },
     {
-        title: "Meta",
+        title: "Sports Facilities:",
         description:
-            "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+            "Enhanced sports facilities including basketball courts, cricket pitches, and athletic tracks.",
         link: "https://meta.com",
     },
     {
-        title: "Amazon",
+        title: "Interactive Classrooms: ",
         description:
-            "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+            "Classrooms with interactive whiteboards and audio-visual aids.",
         link: "https://amazon.com",
     },
     {
-        title: "Microsoft",
+        title: "Cultural Activities: ",
         description:
-            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+            "Annual cultural events, inter-school competitions, and talent shows.",
         link: "https://microsoft.com",
     },
+    {
+        title: "Community Service:  ",
+        description:
+            " Programs and projects to engage students in community service and social responsibility.",
+        link: "https://netflix.com",
+    },
+    {
+        title: "Health and Safety:",
+        description:
+            "Regular health check-ups, a well-equipped medical room, and safety drills.",
+        link: "https://meta.com",
+    },
+    {
+        title: "Parent-Teacher Communication: ",
+        description:
+            "Online portals and regular meetings for parent-teacher interaction.",
+        link: "https://amazon.com",
+    },
+
 ];
