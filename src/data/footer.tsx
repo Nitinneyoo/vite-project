@@ -1,4 +1,3 @@
-import { DockDemo } from "../components/dock"
 
 
 export const Footer = () => {
@@ -84,9 +83,7 @@ export const Footer = () => {
             </footer>
 
 
-            <div>
-                <DockDemo />
-            </div>
+
         </div>
 
 
