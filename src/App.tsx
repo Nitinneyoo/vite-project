@@ -5,7 +5,7 @@ import { Facility } from './data/facility';
 import { Footer } from './data/footer';
 import { Home } from './data/home';
 import { Contact } from './data/contact';
-import { Faculty } from './data/faculty';
+import { FacultyMember } from './data/faculty';
 import Navbar from './components/Navbar';
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Academic />
       <Facility />
-      <Faculty />
+      <FacultyMember />
       <Contact />
       <Footer />
     </>

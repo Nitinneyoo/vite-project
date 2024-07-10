@@ -1,7 +1,6 @@
 import { Spotlight } from "@/components/ui/Spotlight"
 import Link from "next/link"
 import { Button } from "@/components/ui/moving-border"
-
 export const Home = () => {
     return (
         <>
@@ -11,7 +10,7 @@ export const Home = () => {
                     fill="white"
                 />
                 <div className="p-4 relative z-10 w-full text-center">
-                    <h1 className=" mt-20 md:mt-0 md:text-7xl font-bold bg-clip-text text-5xl text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Model Middle School</h1>
+                    <h1 className=" mt-40 md:mt-0 md:text-7xl font-bold bg-clip-text text-5xl text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Model Middle School</h1>
                     <p className="font-normal text-base md:text-xl text-neutral-300 max-w-lg mx-auto mt-4 ">
                         Model Middle School, established by Ajayab Lal Singh, offers classes from 1 to 10th grade. With a focus on holistic education, the school provides modern facilities, experienced faculty, and a supportive learning environment to nurture and develop the potential of every student.
                     </p>
