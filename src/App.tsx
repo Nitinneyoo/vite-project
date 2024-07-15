@@ -1,7 +1,7 @@
 
 import { About } from './data/About';
-import { Academic } from './data/academic';
 import { Facility } from './data/facility';
+import Academic from './data/academic';
 import { Footer } from './data/footer';
 import { Home } from './data/home';
 import { Contact } from './data/contact';
