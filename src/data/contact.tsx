@@ -27,7 +27,7 @@ export const Contact = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1">
+                <p className="mt-1 text-sm sm:text-base">
                   Model Middle School Baghedi, Rewa, Madhya Pradesh 486226,
                   India
                 </p>
@@ -37,7 +37,7 @@ export const Contact = () => {
                   EMAIL
                 </h2>
                 <a
-                  className="text-indigo-500 leading-relaxed"
+                  className="text-indigo-500 leading-relaxed text-sm sm:text-base"
                   href="mailto:example@email.com"
                 >
                   ns442284@gmail.com
@@ -45,7 +45,7 @@ export const Contact = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">7999972872</p>
+                <p className="leading-relaxed text-sm sm:text-base">7999972872</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export const Contact = () => {
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font ml-2">
               Feedback
             </h2>
-            <p className="leading-relaxed mb-5 text-gray-600 ml-4">
+            <p className="leading-relaxed mb-5 text-gray-600 ml-4 text-sm sm:text-base">
               We value your feedback. Tell us what you think about us. Your
               opinion matters to us. Help us improve our services. Share your
               thoughts with us. We are listening. Your feedback is important.
@@ -99,7 +99,7 @@ export const Contact = () => {
             <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ml-2 mr-2">
               Submit
             </button>
-            <p className="text-xs text-gray-500 mt-3">
+            <p className="text-xs text-gray-500 mt-3 text-center sm:text-left">
               Chicharrones blog helvetica normcore iceland tousled brook viral
               artisan.
             </p>
