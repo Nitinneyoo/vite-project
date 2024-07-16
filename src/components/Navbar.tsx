@@ -19,7 +19,7 @@ function Navbar({ className }: { className?: string }) {
         <>
             {isNavbarVisible && ( // Conditionally render the navbar
                 <div
-                    className={cn("fixed top-10 w-autoinset-x-0 max-w-2xl mx-auto z-50 dark rounded-lg", className, "md:top-10 md:max-w-full md:px-4 md:bg-opacity-90 md:bg-black rounded-lg")}
+                    className={cn("fixed top-10 w-autoinset-x-0 max-w-2xl mx-auto z-50 dark rounded-lg", className, "md:fixed md:top-10 md:max-w-full md:px-4 md:bg-opacity-90 md:bg-black rounded-lg")}
                 >
                     <Menu setActive={setActive}>
                         <Link href="/">
@@ -36,7 +36,7 @@ function Navbar({ className }: { className?: string }) {
                     <div className="mt-2 text-white flex justify-center items-center md:mt-2 md:justify-center"
                         style={{ borderRadius: "1.75rem" }}>
                         <Button
-                            className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800 px-4 py-2 md:text-sm md:px-2 md:py-1 md:justify-center"
+                            className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800 px-4 py-2 md:text-sm md:px-2 md:py-1 md:justify-center md:fixed"
                             onClick={toggleNavbarVisibility} >
                             Disable Navbar
                         </Button>
