@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "../utils/cn";
 import Link from "next/link";
+import { Button } from "@/components/ui/moving-border"
+
 
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
@@ -34,11 +36,16 @@ function Navbar({ className }: { className?: string }) {
                     </Menu>
                 </div>
             )}
-            <div>
-                <button onClick={toggleNavbarVisibility} className="border-solid border-2 border-white-500 text-white border-r-red-500 rounded-lg mt-2">
+            <div className="mt-10 text-white flex flex-1 justify-end"
+                style={{ borderRadius: "1.75rem" }}>
+
+                <Button
+                    className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800"
+                    onClick={toggleNavbarVisibility} >
                     {isNavbarVisible ? "Disable Navbar" : "Enable Navbar"}
-                </button>
+                </Button>
             </div>
+
         </>
     );
 }
