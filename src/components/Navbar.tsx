@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
-    const [isNavbarVisible, setNavbarVisible] = useState<boolean>(true); // Add this state
+    const [isNavbarVisible, setNavbarVisible] = useState<boolean>(false); // Set to false by default
 
     // Toggle function to disable or enable navbar
     const toggleNavbarVisibility = () => {
@@ -16,7 +16,6 @@ function Navbar({ className }: { className?: string }) {
 
     return (
         <>
-
             {isNavbarVisible && ( // Conditionally render the navbar
                 <div
                     className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 dark", className)}
@@ -32,9 +31,7 @@ function Navbar({ className }: { className?: string }) {
                         <Link href="/contact">
                             <MenuItem item="Contact" setActive={setActive} active={active} />
                         </Link>
-
                     </Menu>
-
                 </div>
             )}
             <div>
