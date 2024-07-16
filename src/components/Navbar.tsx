@@ -33,7 +33,7 @@ function Navbar({ className }: { className?: string }) {
                             <MenuItem item="Contact" setActive={setActive} active={active} />
                         </Link>
                     </Menu>
-                    <div className="mt-2 text-white flex justify-end items-center md:mt-2 md:justify-center"
+                    <div className="mt-2 text-white flex justify-center items-center md:mt-2 md:justify-center"
                         style={{ borderRadius: "1.75rem" }}>
                         <Button
                             className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800 px-4 py-2 md:text-sm md:px-2 md:py-1 md:justify-center"
