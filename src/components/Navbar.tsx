@@ -6,7 +6,6 @@ import { cn } from "../utils/cn";
 import Link from "next/link";
 import { Button } from "@/components/ui/moving-border"
 
-
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     const [isNavbarVisible, setNavbarVisible] = useState<boolean>(false); // Set to false by default
@@ -20,7 +19,7 @@ function Navbar({ className }: { className?: string }) {
         <>
             {isNavbarVisible && ( // Conditionally render the navbar
                 <div
-                    className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 dark", className)}
+                    className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 dark", className, "md:top-10 md:max-w-full md:px-4 md:bg-opacity-90 md:bg-black")}
                 >
                     <Menu setActive={setActive}>
                         <Link href="/">
@@ -36,16 +35,14 @@ function Navbar({ className }: { className?: string }) {
                     </Menu>
                 </div>
             )}
-            <div className="mt-10 text-white flex flex-1 justify-end"
+            <div className="mt-10 text-white flex justify-end items-center md:mt-5 md:justify-center"
                 style={{ borderRadius: "1.75rem" }}>
-
                 <Button
-                    className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800"
+                    className="bg-black dark:bg-black dark:text-white border-neutral-200 dark:border-slate-800 px-4 py-2 md:text-sm md:px-2 md:py-1"
                     onClick={toggleNavbarVisibility} >
                     {isNavbarVisible ? "Disable Navbar" : "Enable Navbar"}
                 </Button>
             </div>
-
         </>
     );
 }
