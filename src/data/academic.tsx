@@ -1,8 +1,6 @@
 "use client"
 
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
-
-
 const Academic_cards = [
     {
         title: "Student Performance",

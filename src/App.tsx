@@ -1,12 +1,12 @@
 
 import { About } from './data/About';
 import { Facility } from './data/facility';
-import Academic from './data/academic';
-import { Footer } from './data/footer';
-import { Home } from './data/home';
-import { Contact } from './data/contact';
 import { FacultyMember } from './data/faculty';
-import Navbar from './components/Navbar';
+import { Contact } from './data/contact';
+import Academic from './data/academic';
+import { Home } from './data/home';
+import Navbar from '../src/components/Navbar';
+import { Footer } from './data/footer';
 function App() {
 
   return (
